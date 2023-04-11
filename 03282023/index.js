@@ -37,3 +37,10 @@
 //     else return -1;
 //   }
 // console.log(digPow(digPow(92, 1), 1));
+
+
+function sortByLength (array) {
+ return array.sort((a,b)=>a.length-b.length)
+     
+};
+console.log(sortByLength(["Beg", "Life", "I", "To"]));
