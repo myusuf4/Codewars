@@ -46,14 +46,19 @@
 // }
 
 // https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
-function solution(str, ending){
-    if(str.endsWith(ending)){
-      return true;
-    }
-    else{
-      return false
-    }
-  }
+// function solution(str, ending){
+//     if(str.endsWith(ending)){
+//       return true;
+//     }
+//     else{
+//       return false
+//     }
+//   }
 
-  console.log(solution("abs","bs"));
+//   console.log(solution("abs","bs"));
+function reverseWords(str) {
+    let res=str.split("").reverse("").join("");
+    return res.split(" ").reverse().join(" ")
+ }
 
+   console.log(reverseWords('The quick brown fox jumps over the lazy dog.'));
