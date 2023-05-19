@@ -7,10 +7,19 @@
 
 //   https://www.codewars.com/kata/55f8a9c06c018a0d6e000132/train/javascript
 
-function validatePIN (pin) {
-    for (let i of pin) {
-        if (!isFinite(parseInt(i))) return false;
-    }
-    return pin.length === 4 || pin.length === 6;
-}
-  console.log(validatePIN("1111"));
+// function validatePIN (pin) {
+//     for (let i of pin) {
+//         if (!isFinite(parseInt(i))) return false;
+//     }
+//     return pin.length === 4 || pin.length === 6;
+// }
+//   console.log(validatePIN("1111"));
+
+
+
+// function removeSmallest(numbers) {
+//     let indexOfMin = numbers.indexOf(Math.min(...numbers));
+//     return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
+//   }
+
+// console.log(removeSmallest([4,6,7,1]));
