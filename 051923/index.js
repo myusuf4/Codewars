@@ -42,3 +42,12 @@
 //  }
 
 // console.log(solution("abc"));
+
+// https://www.codewars.com/kata/52685f7382004e774f0001f7/train/javascript
+function humanReadable (seconds) {
+    const HH=('0'+parseInt(seconds/(60*60))).slice(-2);
+    const MM=('0'+parseInt(seconds/60%60)).slice(-2);
+    const SS=('0'+parseInt(seconds%60)).slice(-2);
+   return HH+":" +MM+":"+SS
+  }
+  console.log(humanReadable(59));
