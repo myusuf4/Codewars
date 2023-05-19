@@ -22,23 +22,29 @@
 
 
 
-function toCamelCase(str){
-  let strArray;
-  if(str.strArray==""){
-    return ""
-  }
-  if(str.indexOf("-")!==-1){
-    strArray=str.split("-")
-  } else {
-    strArray=str.split("_")
-  }
-  let res=strArray[0];
-  for(let i=1;i<strArray.length;i++){
-    res+=capitalize(strArray[i]);
-  }
-  return res;
+// function toCamelCase(str){
+//   let strArray;
+//   if(str.strArray==""){
+//     return ""
+//   }
+//   if(str.indexOf("-")!==-1){
+//     strArray=str.split("-")
+//   } else {
+//     strArray=str.split("_")
+//   }
+//   let res=strArray[0];
+//   for(let i=1;i<strArray.length;i++){
+//     res+=capitalize(strArray[i]);
+//   }
+//   return res;
+// }
+// let capitalize=(str)=>{
+//     return str[0].toUpperCase()+str.slice(1)
+// }
+// console.log(toCamelCase("name-muhammad_name"));
+
+function findMultiples(integer, limit) {
+ 
 }
-let capitalize=(str)=>{
-    return str[0].toUpperCase()+str.slice(1)
-}
-console.log(toCamelCase("name-muhammad_name"));
+
+findMultiples([])
